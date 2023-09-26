@@ -31,7 +31,7 @@ display_decimals=7
 name="WORLD"
 desc="The universe is believed to be at least 10 billion light years in diameter and contains a vast number of galaxies; it has been expanding since its creation in the Big Bang about 13 billion years ago. The earth, together with all of its countries, peoples, and natural features. World is a region or group of countries with Human and social interaction."
 conditions="WORLD 100% secured assets in the world"
-image="https://xlmcoin.github.io/world.png"
+image="https://xlmtoken.github.io/world.png"
 is_asset_anchored=true
 anchor_asset_type="fiat"
 anchor_asset="USD"
@@ -44,7 +44,7 @@ issuer="GBFQ2A5RCBUNEYV2VDSLSGAJRG4CNS3YW2AN4KUH2PTHP3QVJO6C5GSM"
 name="Ability"
 desc="Be knowledge of how to do something right"
 conditions="932,337,203,685"
-image="https://xlmcoin.github.io/ability.png"
+image="https://xlmtoken.github.io/ability.png"
 display_decimals=7
 
 [[CURRENCIES]]
@@ -53,7 +53,7 @@ issuer="GBFQ2A5RCBUNEYV2VDSLSGAJRG4CNS3YW2AN4KUH2PTHP3QVJO6C5GSM"
 name="Beauty"
 desc="Beauty, together with art and taste, is the main subject of aesthetics, one of the major branches of philosophy"
 conditions="922,337,203,685"
-image="https://xlmcoin.github.io/beauty.png"
+image="https://xlmtoken.github.io/beauty.png"
 display_decimals=7
 
 [[CURRENCIES]]
@@ -62,7 +62,7 @@ issuer="GBFQ2A5RCBUNEYV2VDSLSGAJRG4CNS3YW2AN4KUH2PTHP3QVJO6C5GSM"
 name="Confidence"
 desc="Belief in success, regardless of failure"
 conditions="922,337,203,685"
-image="https://xlmcoin.github.io/confidence.png"
+image="https://xlmtoken.github.io/confidence.png"
 display_decimals=7
 
 [[CURRENCIES]]
@@ -71,7 +71,7 @@ issuer="GBFQ2A5RCBUNEYV2VDSLSGAJRG4CNS3YW2AN4KUH2PTHP3QVJO6C5GSM"
 name="Dream"
 desc="Dreaming and sleep are intertwined"
 conditions="922,337,203,685"
-image="https://xlmcoin.github.io/dream.png"
+image="https://xlmtoken.github.io/dream.png"
 display_decimals=7
 
 [[CURRENCIES]]
@@ -80,7 +80,7 @@ issuer="GBFQ2A5RCBUNEYV2VDSLSGAJRG4CNS3YW2AN4KUH2PTHP3QVJO6C5GSM"
 name="Excellence"
 desc="Something in which one excels"
 conditions="922,337,203,685"
-image="https://xlmcoin.github.io/excellence.png"
+image="https://xlmtoken.github.io/excellence.png"
 display_decimals=7
 
 [[CURRENCIES]]
@@ -89,7 +89,7 @@ issuer="GBFQ2A5RCBUNEYV2VDSLSGAJRG4CNS3YW2AN4KUH2PTHP3QVJO6C5GSM"
 name="Fineness"
 desc="The quality of being fine"
 conditions="922,337,203,685"
-image="https://xlmcoin.github.io/fineness.png"
+image="https://xlmtoken.github.io/fineness.png"
 display_decimals=7
 
 [[CURRENCIES]]
@@ -98,7 +98,7 @@ issuer="GBFQ2A5RCBUNEYV2VDSLSGAJRG4CNS3YW2AN4KUH2PTHP3QVJO6C5GSM"
 name="Glamour"
 desc="A combination of charm and good looks"
 conditions="922,337,203,685"
-image="https://xlmcoin.github.io/glamour.png"
+image="https://xlmtoken.github.io/glamour.png"
 display_decimals=7
 
 [[CURRENCIES]]
@@ -107,7 +107,7 @@ issuer="GBFQ2A5RCBUNEYV2VDSLSGAJRG4CNS3YW2AN4KUH2PTHP3QVJO6C5GSM"
 name="Health"
 desc="Condition in which is thriving"
 conditions="922,337,203,685"
-image="https://xlmcoin.github.io/health.png"
+image="https://xlmtoken.github.io/health.png"
 display_decimals=7
 
 [[CURRENCIES]]
@@ -116,7 +116,7 @@ issuer="GBFQ2A5RCBUNEYV2VDSLSGAJRG4CNS3YW2AN4KUH2PTHP3QVJO6C5GSM"
 name="Intelligence"
 desc="Intelligence is what you do when you don't know what to do"
 conditions="922,337,203,685"
-image="https://xlmcoin.github.io/intelligence.png"
+image="https://xlmtoken.github.io/intelligence.png"
 display_decimals=7
 
 [[CURRENCIES]]
@@ -125,7 +125,7 @@ issuer="GBFQ2A5RCBUNEYV2VDSLSGAJRG4CNS3YW2AN4KUH2PTHP3QVJO6C5GSM"
 name="Justice"
 desc="Human rights and The rule of law"
 conditions="922,337,203,685"
-image="https://xlmcoin.github.io/justice.png"
+image="https://xlmtoken.github.io/justice.png"
 display_decimals=7
 
 [[CURRENCIES]]
@@ -134,7 +134,7 @@ issuer="GBFQ2A5RCBUNEYV2VDSLSGAJRG4CNS3YW2AN4KUH2PTHP3QVJO6C5GSM"
 name="Luxury"
 desc="I define luxury as the details that exceed your expectations and please the five senses"
 conditions="922,337,203,685"
-image="https://xlmcoin.github.io/luxury.png"
+image="https://xlmtoken.github.io/luxury.png"
 display_decimals=7
 
 [[CURRENCIES]]
@@ -143,7 +143,7 @@ issuer="GBFQ2A5RCBUNEYV2VDSLSGAJRG4CNS3YW2AN4KUH2PTHP3QVJO6C5GSM"
 name="Mercy"
 desc="God’s mercy means His pity, compassion, and kindness toward people"
 conditions="922,337,203,685"
-image="https://xlmcoin.github.io/mercy.png"
+image="https://xlmtoken.github.io/mercy.png"
 display_decimals=7
 
 [[PRINCIPALS]]
