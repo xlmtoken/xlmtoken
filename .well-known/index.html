@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html> 
+<head> 
+    <title>CORS Enabled and Stellar TOML Activated</title>
+</head>
+<body>
+    <h1>CORS Enabled and Stellar TOML Activated</h1>
+
+    <script>
+        // Enable CORS
+        const proxyUrl = 'https://cors-anywhere.herokuapp.com/';
+        const targetUrl = 'https://xlmtoken.github.io';
+        const url = proxyUrl + targetUrl;
+
+        fetch(url)
+            .then(response => response.text())
+            .then(data => console.log(data))
+            .catch(error => console.log('Error:', error));
+
+        // Activate Stellar TOML
+        const stellarTomlUrl = 'https://xlmtoken.github.io/.well-known/stellar.toml';
+
+        StellarSdk.StellarTomlResolver.resolve(stellarTomlUrl)
+            .then(stellarToml => console.log(stellarToml))
+            .catch(error => console.log('Error:', error));
+    </script>
+</body>
+</html>
