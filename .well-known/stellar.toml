@@ -11,8 +11,6 @@ ACCOUNTS=["GAUTG3WJGV54WJF3ZBNWNSFD73YV7YVBKUN54DW3LQY7RUO57ADIDITX",
 ORG_NAME="Stellar Token Marketplace"
 ORG_URL="https://xlmtoken.github.io"
 
-# Stellar TOML Home Domain: xlmtoken.github.io
-
 [[CURRENCIES]]
 code="ITX"
 issuer="GAUTG3WJGV54WJF3ZBNWNSFD73YV7YVBKUN54DW3LQY7RUO57ADIDITX"
@@ -150,4 +148,5 @@ display_decimals=7
 name="XLM Token Support Team"
 email="lumenxstellar@yahoo.com"
 
+# Stellar TOML Home Domain: xlmtoken.github.io
 # Token was issued using the open and inclusive Stellar blockchain network.
