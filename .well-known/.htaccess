@@ -1,0 +1,99 @@
+<IfModule mod_headers.c>
+
+    Header set Access-Control-Allow-Origin "*"
+
+    Header set Access-Control-Allow-Methods "*"
+
+    Header set Access-Control-Allow-Headers "*"
+
+</IfModule>
+
+<rewrite>
+ <rules>
+     <rule name="Main Rule" stopProcessing="true">
+         <match url=".*" />
+         <conditions logicalGrouping="MatchAll">
+             <add input="{REQUEST_FILENAME}" matchType="IsFile" negate="true" />
+             <add input="{REQUEST_FILENAME}" matchType="IsDirectory" negate="true" />
+         </conditions>
+         <action type="Rewrite" url="index.php/{R:0}" />
+     </rule>
+ </rules>
+</rewrite>
+
+General:
+Request URL: https://cors3.azurewebsites.net/api/values/5
+Request Method: OPTIONS
+Status Code: 204 No Content
+
+Response Headers:
+Access-Control-Allow-Methods: PUT,DELETE,GET
+Access-Control-Allow-Origin: https://cors1.azurewebsites.net
+Server: Microsoft-IIS/10.0
+Set-Cookie: ARRAffinity=8f8...8;Path=/;HttpOnly;Domain=cors1.azurewebsites.net
+Vary: Origin
+
+Request Headers:
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Access-Control-Request-Method: PUT
+Connection: keep-alive
+Host: cors3.azurewebsites.net
+Origin: https://cors1.azurewebsites.net
+Referer: https://cors1.azurewebsites.net/
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: cross-site
+User-Agent: Mozilla/5.0
+
+Request URL: https://cors1.azurewebsites.net/api/values
+Request Method: GET
+Status Code: 200 OK
+
+Content-Encoding: gzip
+Content-Type: text/plain; charset=utf-8
+Server: Microsoft-IIS/10.0
+Set-Cookie: ARRAffinity=8f...;Path=/;HttpOnly;Domain=cors1.azurewebsites.net
+Transfer-Encoding: chunked
+Vary: Accept-Encoding
+X-Powered-By: ASP.NET
+
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Connection: keep-alive
+Host: cors1.azurewebsites.net
+Origin: https://cors3.azurewebsites.net
+Referer: https://cors3.azurewebsites.net/
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: cross-site
+User-Agent: Mozilla/5.0 ...
+
+Access-Control-Allow-Origin: *
+
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: X-PINGOTHER, Content-Type
+
+
+const invocation = new XMLHttpRequest();
+const url = "https://bar.other/resources/credentialed-content/";
+
+function callOtherDomain() {
+  if (invocation) {
+    invocation.open("GET", url, true);
+    invocation.withCredentials = true;
+    invocation.onreadystatechange = handler;
+    invocation.send();
+  }
+}
+
+
+Access-Control-Allow-Credentials: true
+
+Access-Control-Allow-Headers: <header-name>[, <header-name>]*
+
+Access-Control-Request-Method: <method>
+
+Access-Control-Request-Headers: <field-name>[, <field-name>]*
