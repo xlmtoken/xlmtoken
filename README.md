@@ -14,5 +14,5 @@ The Stellar system works peer-to-peer and is not centrally managed. Stellar is d
 
 Note: We don't put a licence for the public to use our code. This is a **copyrighted** project.
 
-&copy; XLM Token LLC 2023
+&copy; XLM Token LLC 2024
 
